@@ -1,0 +1,39 @@
+ul {
+    list-style-type: none;
+    text-align: right;
+    background-color: #0a0a16;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 7vh;
+    overflow: hidden;
+    z-index: 50;
+}
+
+li {
+    color: gold;
+    font-weight: normal;
+    display: inline-block;
+    font-family: "sepahbod";
+    font-size: 1.25vw;
+    margin: 0;
+    padding: 1vh 10.15vw;
+    cursor: pointer;
+
+}
+
+li:first-child {
+    margin-right: 0;
+}
+
+li:hover {
+    background-color: yellow;
+    color: black;
+}
+
+li.selected {
+    color: white;
+    background-color: blueviolet;
+    font-weight: bold;
+    cursor: default;
+}

@@ -1,0 +1,227 @@
+div.home-body-container {
+    background-image: url("../images/backgrounds/page_background.jpg");
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 93vh;
+}
+
+div.home-body-container > div.home-right-panel {
+    width: 22.5vw;
+    height: 90vh;
+    margin: 1.5vh 0;
+    float: right;
+    background-color: rgba(255,255,255, 0.3);
+}
+
+div.home-body-container > div.home-right-panel > div.home-sidebar-container {
+    width: 20vw;
+    height: 16vh;
+    margin: 1.5vh auto;
+    font-family: "iran-sans";
+}
+
+div.home-body-container > div.home-right-panel > div.home-sidebar-container > span.home-sidebar-title {
+    color: gold;
+    line-height: 8vh;
+    font-size: 1.5vw;
+    display: block;
+}
+
+div.home-body-container > div.home-right-panel > div.home-sidebar-container > span.home-sidebar-count {
+    color: white;
+    line-height: 7vh;
+    display: block;
+}
+
+div.home-body-container > div.home-main {
+    width: 65vw;
+    height: 90vh;
+    margin: 1.5vh 5vw;
+    float: left;
+    overflow: auto;
+}
+
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+a::selection {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+div.home-post-container {
+    width: 100%;
+    min-height: 25vh;
+    background-color: rgba(255,255,255, 0.3);
+    margin: 2.5vh 0;
+    overflow: hidden;
+}
+
+div.home-post-container:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+div.home-post-container div.home-post-header {
+    height: 15vh;
+    border-bottom: 1px solid #999;
+}
+
+div.home-post-container div.home-post-header > div.home-post-avatar-container {
+    float: right;
+    height: 13vh;
+    width: 13vh;
+    margin: 1vh 2vw;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+div.home-post-container div.home-post-header > div.home-post-avatar-container > img {
+    height: 100%;
+    width: 100%;
+}
+
+div.home-post-container div.home-post-header > span.home-post-username-container {
+    direction: ltr;
+    display: block;
+    float: left;
+    margin: 2.5vh 5vw;
+    line-height: 10vh;
+    font-family: "iran-sans";
+    font-size: 2vw;
+}
+
+div.home-post-container div.home-post-header > span.home-post-name-container {
+    direction: rtl;
+    display: block;
+    float: right;
+    margin: 2.5vh 2vw;
+    line-height: 10vh;
+    font-family: "iran-sans";
+    font-size: 1.5vw;
+}
+
+div.home-post-container > div.home-post-content {
+    direction: rtl;
+    margin: 2.5vh 2vw;
+    line-height: 10vh;
+    font-family: "iran-sans";
+    text-align: right;
+    font-size: 1.5vw;
+    width: 100%;
+    text-align: justify;
+    text-justify: auto;
+    word-break: keep-all;
+}
+
+div.home-post-container > div.home-post-image {
+    width: 60vw;
+    height: auto;
+    margin: 2.5vh auto;
+}
+
+div.home-post-container > div.home-post-image > img {
+    width: 100%;
+    height: auto;
+}
+
+div.home-post-container > div.home-post-content-container {
+    direction: rtl;
+    line-height: 10vh;
+    font-family: "iran-sans";
+    text-align: right;
+    font-size: 1.5vw;
+    width: 25vw;
+    text-align: justify;
+    text-justify: auto;
+    word-break: keep-all;
+    float: right;
+}
+
+div.home-post-container > div.home-post-image-container {
+    width: 40vw;
+    height: auto;
+    float: left;
+}
+
+div.home-post-container > div.home-post-image-container > img {
+    width: 100%;
+    height: auto;
+}
+
+div.home-post-right {
+    float: right;
+    width: 35%;
+    height: auto;
+    overflow: hidden;
+    margin: 0;
+}
+
+div.home-post-right div.home-post-header {
+    min-height: 20vh;
+    border-bottom: 1px solid #999;
+}
+
+div.home-post-right div.home-post-header > div.home-post-avatar-container {
+    width: 13vh;
+    height: 13vh;
+    border-radius: 100%;
+    margin: 2vh 1vw;
+    overflow: hidden;
+    float: right;
+}
+
+div.home-post-right div.home-post-header > div.home-post-avatar-container > img {
+    width: 100%;
+    height: 100%;
+}
+
+div.home-post-right div.home-post-header > div.home-post-header-left {
+    float: left;
+    margin: 1vh 1vw;
+}
+
+div.home-post-right div.home-post-header > div.home-post-header-left > span.home-post-username-container {
+    direction: ltr;
+    display: block;
+    margin: 1vh auto;
+    line-height: 8vh;
+    font-family: "iran-sans";
+    font-size: 2vw;
+}
+
+div.home-post-right div.home-post-header > div.home-post-header-left > span.home-post-name-container {
+    direction: rtl;
+    display: block;
+    margin: 0 auto 2vh auto;
+    line-height: 3vh;
+    font-family: "iran-sans";
+    font-size: 1.5vw;
+}
+
+div.home-post-right > div.home-post-content-container {
+    direction: rtl;
+    display: block;
+    text-align: right;
+    margin: 2vh 1vw;
+    line-height: 3vh;
+    font-family: "iran-sans";
+    font-size: 1.5vw;
+    word-break: break-all;
+}
+
+div.home-post-left {
+    float: left;
+    border-right: 1px solid #999;
+    width: calc(65% - 1px);
+    height: auto;
+    margin: 0;
+}
+
+div.home-post-left > img {
+    width: 100%;
+    min-height: 100%;
+    height: auto;
+}

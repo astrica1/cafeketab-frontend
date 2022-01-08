@@ -1,0 +1,18 @@
+{
+    "git.ignoreLimitWarning": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+      },
+      "emmet.triggerExpansionOnTab": true,
+      "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+      },
+      "jshint.enable": false,
+      "eslint.format.enable": true,
+      "eslint.run": "onType",
+      "eslint.alwaysShowStatus": true,
+      "eslint.codeActionsOnSave.mode": "all",
+      "eslint.debug": true,
+      "eslint.lintTask.enable": true,
+      "tslint.jsEnable": true
+}

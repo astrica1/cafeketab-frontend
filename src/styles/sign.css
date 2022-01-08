@@ -1,0 +1,190 @@
+div.Signin-container {
+    width: 100vw;
+    height: 100vh;
+    background-image:url("../images/backgrounds/01.jpg");
+    background-size: 100vw 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div.Signin-container > form {
+    width: 30vw;
+    height: 40vh;
+    text-align: right;
+    position: absolute;
+    left: 5vw;
+    top: 10vh;
+    animation-name: custom-move;
+    animation-duration: 5s;
+}
+
+div.Signin-container > form > label {
+    display: block;
+    height: 10vh;
+    line-height: 10vh;
+    font-size: 2vw;
+}
+
+div.Signin-container > form > label > input {
+    width: 20vw;
+    height: 5vh;
+    margin-top: 2vh;
+    float: left;
+    background: rgba(255, 255, 255, 0.5);
+    border: none;
+    font-size: 1vw;
+}
+
+div.Signin-container > form > label > input[type=button] {
+    font-weight: bold;
+    justify-self: left;
+    cursor: pointer;
+}
+
+div.Signin-container > form > div {
+    float: left;
+    width: 65%;
+    color: black;
+    font-size: 1.5vw;
+}
+
+div.Signin-container > form > div > a {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    
+}
+
+@keyframes custom-move {
+    0% {
+        display: none;
+        opacity: 0;
+        top: 30vh;
+    }
+
+    50% {
+        display: block;
+        opacity: 0;
+        top: 30vh;
+    }
+
+    75% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+        top: 10vh;
+    }
+}
+
+@keyframes custom-move2 {
+    0% {
+        display: none;
+        opacity: 0;
+        top: 30vh;
+    }
+
+    50% {
+        display: block;
+        opacity: 0;
+        top: 30vh;
+    }
+
+    75% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+        top: 2.5vh;
+    }
+}
+
+div.Signup-container {
+    width: 100vw;
+    height: 100vh;
+    background-image:url("../images/backgrounds/03.jpg");
+    background-size: 100vw 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div.Signup-container > form {
+    width: 38vw;
+    height: 55vh;
+    text-align: right;
+    position: absolute;
+    right: 2.5vw;
+    top: 2.5vh;
+    animation-name: custom-move2;
+    animation-duration: 5s;
+}
+
+div.Signup-container > form > label {
+    display: block;
+    height:8.5vh;
+    line-height: 10vh;
+    font-size: 2vw;
+}
+
+div.Signup-container > form > label > input {
+    width: 20vw;
+    height: 5vh;
+    margin-top: 2vh;
+    float: left;
+    background: rgba(255, 255, 255, 0.5);
+    border: none;
+    font-size: 1vw;
+}
+
+div.Signup-container > form > label > input[type=button] {
+    font-weight: bold;
+    justify-self: left;
+    cursor: pointer;
+}
+
+div.Signup-container > form > div {
+    float: left;
+    width: 50%;
+    color: white;
+    font-size: 1.5vw;
+}
+
+div.Signup-container > form > div > a {
+    cursor: pointer;
+    color: gold;
+    text-decoration: none;
+}
+
+div.login-logo {
+    font-family: "sepahbod";
+    font-size: 4vw;;
+    line-height: 20vh;
+    color: white;
+    float: right;
+    position: relative;
+    top: 10vh;
+    right: 5vw;
+    cursor: default;
+}
+
+div.login-logo::selection {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
+div.signup-logo {
+    font-family: "sepahbod";
+    font-size: 2vw;;
+    line-height: 20vh;
+    color: white;
+    float: left;
+    position: relative;
+    top: 1vh;
+    left: 3vw;
+    cursor: default;
+}
+
+div.signup-logo::selection {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}

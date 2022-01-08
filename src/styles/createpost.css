@@ -1,0 +1,62 @@
+form.create-post {
+    display: block;
+    width: calc(50vw - 2px);
+    height: calc(50vh - 2px);
+    text-align: center;
+    margin: 5vh auto;
+}
+
+form.create-post > img {
+    height: 40vh;
+    width: 20vw;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 5vh;
+}
+
+form.create-post > div.row-container {
+    height: 15vh;
+    width: 35vw;
+    margin: 0 auto;
+    text-align: center;
+}
+
+form.create-post > div.row-container > label {
+    display: block;
+    float: right;
+}
+
+form.create-post > div.row-container > input {
+    float: left;
+    display: block;
+}
+
+form.create-post > div.row-container > textarea {
+    float: left;
+    display: block;
+    height: 13vh;
+    width: 25vw;
+}
+
+form.create-post > div.row-container > input[type=file] {
+    direction: ltr;
+}
+
+form.create-post > div.row-container > input[type=button] {
+    float: none;
+    display: block;
+    margin: 5vh auto;
+    width: 10vw;
+    height: 5vh;
+    border: 0 none;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+form.create-post > div.row-container > input[type=button]:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
